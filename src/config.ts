@@ -278,7 +278,14 @@ export function sanitizeConfig(config: any): Config {
 
 export async function loadConfig() {
     const params = new URLSearchParams(window.location.search);
-    const loadUrl = params.get(siteConfigParam)?.trim()
+    let loadUrl = params.get(siteConfigParam)?.trim()
+    if (loadUrl) {
+        // Only allow loading configs from this site.
+        let loadUrlUrl = new URL(loadUrl, window.location);
+        if (loadUrlUrl.origin !== window.location.origin) {
+            loadUrl = '';
+        }
+    }
 
     const loadJson = async (url: string) => {
         try {

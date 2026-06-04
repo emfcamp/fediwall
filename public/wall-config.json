@@ -1,0 +1,42 @@
+{
+  "servers": [
+    "social.emfcamp.org"
+  ],
+  "tags": [
+    "emfcamp",
+    "emf2026",
+    "emfcamp2026",
+    "emfcamp26",
+    "tildagon",
+    "hexpansion"
+  ],
+  "accounts": [
+    "badge@emfcamp.org",
+    "films@emfcamp.org",
+    "info@emfcamp.org",
+    "noc@emfcamp.org",
+    "phones@emfcamp.org",
+    "robotarms@emfcamp.org",
+    "video@emfcamp.org",
+    "emf@emfcamp.org",
+    "bus@emfcamp.org",
+    "kitchen@emfcamp.org"
+  ],
+  "loadFederated": false,
+  "loadPublic": false,
+  "loadTrends": false,
+  "languages": [],
+  "badWords": [],
+  "hideSensitive": false,
+  "hideBoosts": false,
+  "hideBots": false,
+  "hideReplies": false,
+  "limit": 20,
+  "interval": 300,
+  "title": "Electromagnetic Field 2026",
+  "theme": "auto",
+  "showInfobar": true,
+  "showText": true,
+  "showMedia": true,
+  "playVideos": false
+}

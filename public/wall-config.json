@@ -17,7 +17,7 @@
   "interval": 300,
   "title": "Electromagnetic Field 2026",
   "theme": "auto",
-  "showInfobar": true,
+  "showInfobar": false,
   "showText": true,
   "showMedia": true,
   "playVideos": false

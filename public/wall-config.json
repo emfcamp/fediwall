@@ -5,7 +5,7 @@
   "tags": [],
   "accounts": [],
   "loadFederated": false,
-  "loadPublic": false,
+  "loadPublic": true,
   "loadTrends": false,
   "languages": [],
   "badWords": [],
